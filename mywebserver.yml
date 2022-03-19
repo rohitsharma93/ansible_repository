@@ -6,12 +6,4 @@
       name: apache2
       state: absent
    
-   - name: i want to install tree
-     apt:
-       name: tree
-       state: absent
    
-   - name: i want to install wget
-     apt:
-       name: wget
-       state: absent
