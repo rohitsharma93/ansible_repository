@@ -1,0 +1,18 @@
+---
+- hosts: all
+  become: yes
+  tasks: i want to install apache2
+- name:
+  apt:
+    name: apache2
+    state: peresent
+    
+- name: i want to install tree
+  apt:
+    name: tree
+    state: present
+
+- name: i want tp install wget
+  apt:
+    name: wget
+    state: present
