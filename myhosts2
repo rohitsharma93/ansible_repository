@@ -10,4 +10,6 @@
  172.31.65.123
  172.31.7.18
 
- 
+ [mywebservers:vars]
+ mywebpackforubuntu: apache2222
+ mywebpackforredhat: httpd
