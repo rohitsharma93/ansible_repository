@@ -3,13 +3,13 @@
 172.31.5.212
 
 [myapplicationservers]
- 172.31.17.134
- 172.31.56.124
+172.31.17.134
+172.31.56.124
 
- [mydbservers]
- 172.31.65.123
- 172.31.7.18
+[mydbservers]
+172.31.65.123
+172.31.7.18
 
- [mywebservers:vars]
- mywebpackforubuntu: apache2
- mywebpackforredhat: httpd
+[mywebservers:vars]
+mywebpackforubuntu: apache2
+mywebpackforredhat: httpd
