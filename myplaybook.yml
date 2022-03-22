@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  become: yes
   tasks: 
    - name: i want to install webserver on ansible nodes
      apt:
@@ -17,9 +18,11 @@
      yum:
        name: httpd
        state: present
+     when: ansible_os_family =="RedHat"
 
     
    - name: i want to start webserver on RedHat nodes
      service:
         name: httpd
         state: started
+     when: ansible_os_family =="*RedHat*"
