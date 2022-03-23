@@ -17,5 +17,5 @@
 172.31.8.0
 
 [myfirstplaybook:vars]
-mywebpackforubuntu=apache22222
+mywebpackforubuntu=apache2
 mywebpackfoeredhat=httpd
