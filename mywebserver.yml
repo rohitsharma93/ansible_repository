@@ -24,4 +24,4 @@
      service: 
         name: httpd
         state: started
-     when: ansible_os_familhy =="RedHat"
+     when: ansible_os_family =="RedHat"
