@@ -1,13 +1,12 @@
 ---
 - hosts: all
   tasks: 
-   - name: i want to install webserver on ubuntu ansible nodes
+   - name: i want to install webserver on ansible  nodes
      apt: 
        name: apache2
-       sate: present
+       state: present
 
-   - name: i want to start webserver on ubuntu ansible nodes
-     service:
+   - name: i want to start webserver on ansible nodes
+     service: 
        name: apache2
        state: started
-     
