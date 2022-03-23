@@ -1,21 +1,3 @@
-[myjavainstall]
 172.31.6.20
 172.31.8.0
 
-[myapplicationserver]
-172.31.9.56
-172.31.56.34
-
-[mydbserver]
-172.31.5.87
-172.31.6.75
-
-[myubuntuserver]
-172.31.6.20
-
-[myredhat]
-172.31.8.0
-
-[myfirstplaybook:vars]
-mywebpackforubuntu=apache2
-mywebpackfoeredhat=httpd

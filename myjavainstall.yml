@@ -1,5 +1,5 @@
 ---
-- hosts: myjavainstall
+- hosts: all
   become: yes
   tasks:
    - name: i want to install java on ubuntu nodes
