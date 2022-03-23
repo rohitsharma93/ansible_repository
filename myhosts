@@ -1,2 +1,15 @@
+[myfirstplaybook]
 172.31.6.20
 172.31.8.0
+
+[myapplicationserver]
+172.31.9.56
+172.31.56.34
+
+[mydbserver]
+172.31.5.87
+172.31.6.75
+
+[myfirstplaybook]
+mywebpackforubuntu=apache22222
+mywebpackfoeredhat=httpd
