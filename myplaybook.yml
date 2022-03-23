@@ -4,8 +4,8 @@
   tasks: 
    - name: i want to install webserver on ubuntu ansible nodes
      apt: 
-      name: apache2
-      sate: present
+       name: apache2
+       sate: present
      when: ansible_os_family =="Debian" 
 
    - name: i want to start webserver on ubuntu ansible nodes
