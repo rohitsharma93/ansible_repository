@@ -7,7 +7,7 @@
       name: openjdk-8-jre
       state: present
 
-  - name: i want to start java on ansible RedHat nodes\
+  - name: i want to install java on ansible RedHat nodes\
     yum: 
       name: java-1.8.0-openjdk 
-      state: started
+      state: present
