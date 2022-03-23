@@ -10,6 +10,12 @@
 172.31.5.87
 172.31.6.75
 
+[myubuntuserver]
+172.31.6.20
+
+[myredhat]
+172.31.8.0
+
 [myfirstplaybook:vars]
 mywebpackforubuntu=apache22222
 mywebpackfoeredhat=httpd
