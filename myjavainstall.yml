@@ -12,4 +12,4 @@
     yum: 
       name: "{{myjavapackforredhat}}"
       state: present
-    when: ansible_os_family =="Debian"
+    when: ansible_os_family =="RedHat"
