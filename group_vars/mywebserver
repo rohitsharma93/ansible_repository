@@ -1,0 +1,6 @@
+---
+
+mywebpackforubuntu: apache2
+mywebpackforRedHat: httpd
+myjavapackforubuntu: apache2
+myjavapackforredhat: httpd
