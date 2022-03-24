@@ -1,2 +1,15 @@
+[myapplicationservers]
 172.31.8.164
 172.31.2.110
+
+[mydbserver]
+172.31.6.49
+172.31.4.56
+
+[mynodeserver]
+172.31.8.87
+172.31.5.65
+
+[myapplicationservers:vars]
+mywebpackforubuntu=apache222
+mywebpackforubuntu=httpd
