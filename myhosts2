@@ -10,6 +10,3 @@
 172.31.8.87
 172.31.5.65
 
-[myapplicationservers:vars]
-mywebpackforubuntu=apache2
-mywebpackforredhat=httpd
