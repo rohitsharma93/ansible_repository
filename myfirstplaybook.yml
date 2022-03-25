@@ -16,12 +16,12 @@
 
   - name: i want to install webserver on RedHat nodes
     yum:
-      name: openjdk-8-jre
+      name: httpd
       state: present
     when: ansible_os_family =="RedHat"
 
   - name: i want to start webserver on RedHat nodes
     service: 
-       name: java-1.8.0-openjdk
+       name: httpd
        state: started
     when: ansible_os_family =="RedHat"
