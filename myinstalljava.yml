@@ -6,8 +6,10 @@
      apt: 
       name: openjdk-8-jre
       state: present
+     when: ansible_os_family =="Debian"
 
    - name: i want to install java on RedHat nodes
      yum:
       name: java-1.8.0-openjdk
       state: started
+     when: ansible_os_family =="RedHat"
