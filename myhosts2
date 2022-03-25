@@ -13,3 +13,5 @@
 [myfirstplaybook:vars]
 mywebpackforubuntu= apache2
 mywebpackforredhat= httpd
+myjavapackforubuntu= openjdk-8-jre
+myjavapackforredhat= java-1.8.0-openjdk
