@@ -10,6 +10,6 @@
 
    - name: start webserver on ansible nodes
      service: 
-       name: httpd
+       name: apache2
        state: started
      when: ansible_os_family =="Debian"
