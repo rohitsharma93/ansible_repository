@@ -9,7 +9,7 @@
      when: ansible_os_family =="Debian"
 
    - name: i want to start webserver on ubuntu nodes
-     servive: 
+     service: 
        name: apache2
        state: started 
      when: ansible_os_family =="Debian"
