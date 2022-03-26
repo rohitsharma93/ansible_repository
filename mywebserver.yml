@@ -1,6 +1,5 @@
 ---
 - hosts: mywebserver
-  become: yes
   tasks: 
    - name: i want to install webserver on ubuntu nodes
      apt: 
