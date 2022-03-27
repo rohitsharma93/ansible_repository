@@ -1,6 +1,7 @@
 [myfirstplaybook]
 172.31.15.160
 172.31.31.7
+172.31.13.18
 
 [myapplicationserver]
 172.31.76.56
@@ -10,8 +11,3 @@
 172.31.87.6
 172.43.56.98
 
-[myfirstplaybook:vars]
-mywebpackforubuntu= apache2
-mywebpackforredhat= httpd
-myjavapackforubuntu= openjdk-8-jre
-myjavapackforredhat= java-1.8.0-openjdk
