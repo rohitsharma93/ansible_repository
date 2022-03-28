@@ -13,3 +13,5 @@
 [myplaybook:vars]
 mypacketsforubuntu= apache2
 mypacketforredhat= httpd
+mypacketforubuntu= openjdk-8-jre
+mypacketforredhat= java-1.8.0-openjdk
