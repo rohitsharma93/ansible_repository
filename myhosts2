@@ -11,5 +11,5 @@
 172.87.5.21
 
 [myplaybook:vars]
-mypacketsforubuntu: apache2
-mypacketforredhat: httpd
+mypacketsforubuntu= apache2
+mypacketforredhat= httpd
