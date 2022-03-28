@@ -1,6 +1,7 @@
 [mywebserver]
 172.31.29.246
 172.31.17.229
+172.31.21.173
 
 [mydbserver]
 172.31.21.25
@@ -10,8 +11,3 @@
 172.3.25.47
 172.54.2.35
 
-[mywebserver:vars]
-mywebpackforubuntu= apache2
-mywebpackforredhat= httpd
-myjavapackforubuntu= openjdk-8-jre
-myjavapackforredhat= java-1.8.0-openjdk
