@@ -20,4 +20,4 @@
      apt: 
        name: tree
        state: present
-     when: myResult.stderr !==""
+     when: myResult.stderr !=""
