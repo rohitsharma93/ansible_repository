@@ -4,12 +4,12 @@
   tasks: 
    - name: install java on ansible nodes
      apt: 
-      name: openjdk-8-jre
+      name: "{{mypacketforubuntu}}"
       state: present
      when: ansible_os_family =="Debian"
 
    - name: install webserver on RedHat nodes
      yum: 
-      name: java-1.8.0-openjdk
+      name: "{{mypacketforredhat}}"
       state: present
      when: ansible_os_family =="RedHat" 
