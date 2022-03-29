@@ -1,5 +1,5 @@
 ---
-- hosts: 
+- hosts: 172.31.27.30
   become: yes
   tasks: 
    - name: install linux command
