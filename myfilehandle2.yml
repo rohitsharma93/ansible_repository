@@ -3,12 +3,12 @@
   become: yes
   tasks: 
    - include_tasks: mytestfile2.yml
-   - name: install webserver on ansible nodes
+   - name: install webserver on ubuntu nodes
      apt: 
       name: apache2
       state: present
   
-   - name: copy file into ansible nodes
+   - name: i want to copy file into ansible nodes
      template: 
         src: myindex.j2
         dest: /var/www/html/index.yml
