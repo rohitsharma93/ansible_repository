@@ -1,5 +1,5 @@
 ---
-- hosts: mywebserver
+- hosts: 172.31.30.72
   become: yes
   tasks: 
    - include_tasks: mytestfile2.yml
@@ -11,5 +11,5 @@
    - name: i want to copy webserver on ansible nodes
      template: 
          src: myindex.j2
-         dest: /home/www/html/index.html
+         dest: /var/www/html/index.html
    
