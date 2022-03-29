@@ -10,7 +10,7 @@
 
    - name: start webserver on RedHat nodes
      yum:
-      name: httpd
+      name: apache2
       state: started
      when: ansible_os_family =="RedHat"
 
