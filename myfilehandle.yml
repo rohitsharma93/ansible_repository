@@ -12,3 +12,4 @@
      template: 
         src: myjinja2
         dest: /var/www/html/index.html
+        
