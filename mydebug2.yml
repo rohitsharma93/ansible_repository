@@ -9,3 +9,15 @@
    - name: display my first task
      debug: 
         msg: "{{myResult}}"
+    
+   - name: install git
+     apt: 
+      name: apache2
+      state: present
+     when: myResult.stderr ==""
+
+   - name: install tree
+     apt: 
+       name: tree
+       state: present
+     when: myResult.stderr !=""
