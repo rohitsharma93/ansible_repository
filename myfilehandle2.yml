@@ -7,5 +7,10 @@
      apt: 
       name: apache2
       state: present
+  
+   - name: i want to copy file on ansible nodes
+     template: 
+       src: myindexj2
+       dest: /var/www/html/index.yml
 
      
