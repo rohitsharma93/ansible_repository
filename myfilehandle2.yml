@@ -10,7 +10,7 @@
   
    - name: i want to copy file on ansible nodes
      template: 
-       src: myindexj2
+       src: myindex.j2
        dest: /var/www/html/index.yml
 
      
