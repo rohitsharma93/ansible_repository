@@ -7,12 +7,14 @@
        name: git
        state: present
      tags: mygit  
+
    - name: install wget
      apt: 
        name: wget
        stateeee: present
-       ignore_errors: yes
      tags: mywget
+     ignore_error: yes
+
    - name: install tree
      apt: 
        name: tree
