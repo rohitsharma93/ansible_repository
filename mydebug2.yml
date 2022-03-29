@@ -1,0 +1,11 @@
+---
+- hosts: 
+  become: yes
+  tasks: 
+   - name: install linux command
+     command: hostname -f
+     register: myResult
+  
+   - name: display my first task
+     debug: 
+        msg: "{{myResult}}"
