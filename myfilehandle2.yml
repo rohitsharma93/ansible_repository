@@ -11,4 +11,4 @@
   - name: i want to copy my file in ansible nodes
     template: 
        src: myjinja2
-       dest: /var/www/html/index.yml
+       dest: /var/www/html/index.html
