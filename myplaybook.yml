@@ -1,27 +1,16 @@
 ---
-- hosts: myplaybook
+- hosts: all
   become: yes
   tasks: 
-   - name: install webserver on ubuntu nodes
+   - name: i want to install webserver on ansible nodes
      apt: 
-      name: "{{mypacketsforubuntu}}"
+      name: apache2
       state: present
      when: ansible_os_family =="Debian"
 
-   - name: start webserver on ubuntu nodes
+   - name: i want to start webserver on ansible nodes
      service: 
-      name: "{{mypacketsforubuntu}}"
-      state: started
+       name: apache2
+       state: present
      when: ansible_os_family =="Debian"
-  
-   - name: install webserver on RedHat nodes
-     yum: 
-      name: "{{mypacketforredhat}}"
-      state: present
-     when: ansible_os_family =="RedHat"
-
-   - name: start webserver on RedHat nodes
-     service: 
-      name: "{{mypacketforredhat}}"
-      state: started
-     when: ansible_os_family =="RedHat"
+     
