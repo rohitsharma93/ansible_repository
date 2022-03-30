@@ -1,0 +1,15 @@
+---
+- hosts: 
+  become: yes
+  tasks: 
+   - name: i want to install java on ansible nodes
+     apt: 
+      name: 
+      state: present
+     when: ansible_os_family =="Debian"
+
+   - name: i want to install java on RedHat nodes
+     yum: 
+      name: 
+      state: present
+     when: ansible_os_family =="RedHat"
