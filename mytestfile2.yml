@@ -3,3 +3,4 @@
   file:
     path: /var/home/html/index.html
     state: touch
+  check_mode: no
