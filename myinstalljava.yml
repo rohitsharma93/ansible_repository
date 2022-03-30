@@ -1,5 +1,5 @@
 ---
-- hosts: 
+- hosts: myplaybook
   become: yes
   tasks: 
    - name: i want to install java on ansible nodes
