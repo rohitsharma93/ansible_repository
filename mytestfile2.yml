@@ -1,5 +1,5 @@
 ---
 - name: i want to create a file
   file:
-    path: /var/www/html/index.html
+    path: /var/home/html/index.html
     state: touch
