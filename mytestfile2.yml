@@ -1,6 +1,6 @@
 ---
 - name: i want to create a file
   file:
-    path: /var/home/html/index.html
+    path: /home/ubuntu/mytestfile2.yml
     state: touch
-  check_mode: no
+  
