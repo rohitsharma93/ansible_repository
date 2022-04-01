@@ -7,6 +7,6 @@
 
 - name: i want to copy my index file
   template:
-      src: tempplate/myindex.j2
+      src: template/myindex.j2
       dest: /var/www/html/index.html   
   notify: restartedwebserver
