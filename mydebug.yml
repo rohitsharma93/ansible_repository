@@ -1,0 +1,11 @@
+---
+- hosts: 172.31.30.244
+  become: yes
+  tasks: 
+   - name: i want to instal linux command
+     command: hostname -f
+     register: myResult
+    
+   - name: i want to display my first task
+     debug: 
+        msg: "{{myResult}}"   
