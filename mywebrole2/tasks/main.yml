@@ -1,2 +1,12 @@
 ---
 # tasks file for mywebrole2
+- name: install webserver on ansible ubuntu nodes
+  apt: 
+    name: apache2
+    state: present
+
+- name: i want to copy index file
+  template: 
+      src: template/myindex.j2
+      dest: /var/www/html/index.html
+  notify: restartedwebserver
