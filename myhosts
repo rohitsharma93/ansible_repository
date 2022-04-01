@@ -1,2 +1,15 @@
+[myplaybook]
 172.31.23.35
 172.31.28.204
+
+[mydbservr]
+172.31.24.54
+172.31.14.25
+
+[myapppserver]
+132.25.14.12
+124.32.54.87
+
+[myplaybook: vars]
+mywebpackforubuntu= apache2
+mywebpackforredhat= httpd
