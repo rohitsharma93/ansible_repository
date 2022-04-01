@@ -2,7 +2,7 @@
 - hosts: 172.31.31.72 
   become: yes
   tasks: 
-  - include_tasks: mytestfile2.yml
+  - include_tasks: mytestfile.yml
   - name: install webserver on ansible nodes
     apt: 
       name: apache2
