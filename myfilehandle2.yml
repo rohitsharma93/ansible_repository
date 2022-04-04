@@ -19,5 +19,5 @@
     - name: restartedwebserver
       service: 
          name: apache2
-         state: present
+         state: restarted
       notify: restartedwebserver
