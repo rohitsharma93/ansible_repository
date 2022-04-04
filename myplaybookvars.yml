@@ -10,3 +10,11 @@
     debug: 
        msg: "{{myvar1}}"
   
+  - name: i want to install git
+    apt: 
+     name: "{{item}}"
+     state: present
+    loop: 
+      - "{{myvar1}}"
+      - "{{myvar2}}"
+      - "{{myvar3}}"
