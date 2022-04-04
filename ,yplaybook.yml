@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: ,yplaybook
   become: yes
   tasks: 
   - name: install webserver on ansible nodes
