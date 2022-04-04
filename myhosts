@@ -1,4 +1,4 @@
-[,yplaybook]
+[myplaybook]
 172.31.19.92
 172.31.16.110
 
@@ -10,6 +10,6 @@
 124.24.35.6
 14721.47.25
 
-[,yplaybook:vars]
+[myplaybook:vars]
 mywebpackforubuntu= apache2
 mywebpackforredhat= httpd
