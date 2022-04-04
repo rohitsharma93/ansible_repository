@@ -1,2 +1,15 @@
+[myplaybook]
 172.31.19.92
 172.31.16.110
+
+[myappserver]
+123.32.54.2
+142.32.14.21
+
+[mydbserver]
+124.24.35.6
+14721.47.25
+
+[,yplaybook:vars]
+mywebpackforubuntu= apache2
+mywebpackforredhat= httpd
