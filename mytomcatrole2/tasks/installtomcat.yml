@@ -1,14 +1,14 @@
 ---
-- name: install tomcat
+- name: download tomcat tar file
   get_url:
     url: https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
     dest: /home/ubuntu/apache-tomcat-8.5.5.tar.gz
     force_basic_auth: yes
 
-- name: create a directory
+- name: create tomcat directory
   file: 
    path: /opt/tomcat
-   state: touch
+   state: directory
 
 - name: extract the tar file
   command: 

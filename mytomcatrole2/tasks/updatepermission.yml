@@ -6,14 +6,14 @@
     group: tomcat
     state: directory
     
-- name: give the tomcat group read access
+- name: give the tomcat group read access to the conf directory
   file: 
    path: /opt/tomcat/conf
    recurse: yes
    mode: g+r
    state: directory
 
-- name: give the tomcat group execute access
+- name: give the tomcat group read execute access to the conf directory
   file: 
    path: /opt/tomcat/conf
    mode: g+x
@@ -26,23 +26,23 @@
    owner: tomcat
    state: directory
 
-- name: make the tomcat user the owner of the works
+- name: make the tomcat user the owner of the work
   file: 
-   path: /opt/tomcat/works/
+   path: /opt/tomcat/work/
    recurse: yes
    owner: tomcat
    state: directory
 
-- name: make the tomcat user the owner of the temps
+- name: make the tomcat user the owner of the temp
   file: 
-   path: /opt/tomcat/temps/
+   path: /opt/tomcat/temp/
    recurse: yes
    owner: tomcat
    state: directory
 
 - name: make the tomcat user the owner of the logs
   file: 
-   path: /opt/tomcat/logs
+   path: /opt/tomcat/logs/
    recurse: yes
    owner: tomcat
    state: directory
