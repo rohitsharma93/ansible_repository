@@ -7,4 +7,3 @@
   apt: 
    name: default-jdk
    state: present
-   
