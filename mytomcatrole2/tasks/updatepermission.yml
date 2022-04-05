@@ -21,21 +21,21 @@
 
 - name: make the tomcat user the owner of the webapps
   file: 
-   path: /opt/tomcat/conf
+   path: /opt/tomcat/webapps/
    recurse: yes
    owner: tomcat
    state: directory
 
 - name: make the tomcat user the owner of the works
   file: 
-   path: /opt/tomcat/works
+   path: /opt/tomcat/works/
    recurse: yes
    owner: tomcat
    state: directory
 
 - name: make the tomcat user the owner of the temps
   file: 
-   path: /opt/tomcat/temps
+   path: /opt/tomcat/temps/
    recurse: yes
    owner: tomcat
    state: directory
