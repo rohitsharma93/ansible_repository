@@ -1,6 +1,0 @@
----
-# tasks file for mytomcat8role2
-- include_tasks: installjava.yml
-- include_tasks: createtomcatuser.yml
-- include_tasks: installtomcat.yml
-- include_tasks: updatepermission.yml

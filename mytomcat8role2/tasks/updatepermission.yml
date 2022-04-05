@@ -1,9 +1,0 @@
----
-- name: give the tomcat group ownership
-  file:
-    path: /opt/tomcat
-    recurse: yes
-    group: tomcat
-    state: directory
-
-- name: 
