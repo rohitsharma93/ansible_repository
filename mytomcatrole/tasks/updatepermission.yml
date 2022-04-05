@@ -24,9 +24,25 @@
     path: /opt/tomcat/conf
     recurse: yes
     owner: tomcat
-    name: "{{item}}"
     state: directory
-  loop:
-    - "{{work}}"
-    - "{{temp}}"
-    - "{{logs}}"
+
+- name: make tomcat user owner of the works
+  file: 
+    path: /opt/tomcat/works
+    recurse: yes
+    owner: tomcat
+    state: directory
+
+- name: make tomcat user owner of the temp
+  file: 
+    path: /opt/tomcat/temp
+    recurse: yes
+    owner: tomcat
+    state: directory
+
+- name: make tomcat user owner of the logs
+  file: 
+    path: /opt/tomcat/logs
+    recurse: yes
+    owner: tomcat
+    state: directory
