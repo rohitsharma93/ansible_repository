@@ -1,2 +1,12 @@
 ---
 # tasks file for mytomcarole
+- include_tasks: installjava.yml
+- include_tasks: tomcatuser.yml
+- include_tasks: installtomcat.yml
+- include_tasks: updatepermission.yml
+- include_tasks: systemuser.yml
+- include_tasks: starttomcat.yml
+- include_tasks: tomcatwebmanager.yml
+- include_tasks: restarttomcat.yml
+- include_tasks:
+- include_tasks:
