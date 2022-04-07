@@ -8,5 +8,3 @@
 - include_tasks: starttomcat.yml
 - include_tasks: tomcatwebmanager.yml
 - include_tasks: restarttomcat.yml
-- include_tasks:
-- include_tasks:
